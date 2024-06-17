@@ -1,0 +1,23 @@
+{
+  "name": "blood-sheet",
+  "version": "1.0.0",
+  "description": "processing and organizing blood tests",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npx tsc --watch"
+  },
+  "author": "nandobfer",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.14.2",
+    "convert-array-to-csv": "^2.0.0",
+    "read-excel-file": "^5.8.1",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/convert-array-to-csv": "^2.0.2",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.3"
+  }
+}
